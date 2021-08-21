@@ -1,0 +1,32 @@
+dotnet --info : to check the version of dotnet
+
+dotnet -h : to access help or get the list of sdk commands
+
+dotnet new -h : displays help for this particular command
+
+First we will start by creating a project templete, "ASP.NET CORE WEB API"
+in order to do that we will have to create a solution file by typing
+"dotnet new sln"
+
+then we will type "dotnet new webapi -o API", we have given an output directory 
+because we want our api project to be contained in its folder.
+
+Now the last thing we want to do here is we want to add our API project into our
+solution. This is how, "dotnet sln add API/"
+
+Inside the terminal of vscode, type commands 
+cd API
+dotnet run - this will build and run our application
+dotnet watch run - will keep an eye on every file that is being used or changed
+
+Entites, we will create a user entity that's going to contain user related 
+properties 
+
+Intro to Entity Framework.
+What?
+It's an object relational mapper
+It translates our code into SQL commands that update our database tables.
+
+
+What are migrations?
+
